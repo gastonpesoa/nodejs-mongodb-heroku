@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
         .find({"cliente.numeroCliente":1})
         .toArray(function (err, items) {
             res.send(items);
-            db.close();
+            dbGaston.close();
         });;
 })
 
