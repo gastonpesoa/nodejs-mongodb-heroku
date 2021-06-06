@@ -1,0 +1,86 @@
+{
+    "motivo": "",
+    "fecha": {
+        "Date": ""
+    },
+    "cliente": {
+        "numeroCliente": 1111,
+        "nombre": "",
+        "email": "",
+        "zona": {
+            "localidad": {
+                "nombre": "",
+                "codigoPostal": 0
+            },
+            "ubicacion": {
+                "type": "Point",
+                "coordinates": [
+                    -105.01621,
+                    39.57422
+                ]
+            }
+        },
+        "plan": {
+            "tipo": "",
+            "cantidadCanales": 0,
+            "canales": [
+                ""
+            ]
+        }
+    },
+    "derivacion": [
+        {
+            "fecha": {
+                "Date": ""
+            },
+            "area": "",
+            "empleado": {
+                "numeroEmpleado": 0,
+                "nombreCompleto": "",
+                "email": "",
+                "area": "",
+                "oficina": {
+                    "nombre": "",
+                    "zona": {
+                        "localidad": {
+                            "nombre": "",
+                            "codigoPostal": 0
+                        },
+                        "ubicacion": {
+                            "type": "Point",
+                            "coordinates": [
+                                -105.01621,
+                                39.57422
+                            ]
+                        }
+                    }
+                },
+                "centroTecnico": {
+                    "nombre": "",
+                    "zona": {
+                        "localidad": {
+                            "nombre": "",
+                            "codigoPostal": 0
+                        },
+                        "ubicacion": {
+                            "type": "Point",
+                            "coordinates": [
+                                -105.01621,
+                                39.57422
+                            ]
+                        }
+                    }
+                }
+            },
+            "operacion": [
+                {
+                    "fecha": {
+                        "Date": ""
+                    },
+                    "descripcion": "",
+                    "funciono": false
+                }
+            ]
+        }
+    ]
+}
