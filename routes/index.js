@@ -11,7 +11,8 @@ router.get('/', (req, res) => {
     });
     dbGaston = db.getInstance();
     dbGaston.collection("tickets")
-        .find({}).toArray(function (err, items) {
+        .find({"cliente.numeroCliente":1})
+        .toArray(function (err, items) {
             res.send(items);
             db.close();
         });;
