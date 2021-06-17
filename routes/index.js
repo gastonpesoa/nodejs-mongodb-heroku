@@ -191,7 +191,7 @@ router.get('/clientes-consultas', (req, res) => {
                     }
                 },
             },
-            { $sort: { "cant": -1 } },
+            { $sort: { cantidad: -1 } },
             { $limit: 1 }
         ]).toArray((err, result) => {
             if (err) return console.log(err)
