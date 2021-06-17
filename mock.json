@@ -1,319 +1,767 @@
-{
-    "_id": "60bc0f97a5a3d321334b6ad0",
-    "motivo": "Cambio de plan",
-    "fecha": "18/02/2020",
-    "cliente": {
-        "numeroCliente": 1,
-        "nombreCompleto": "Gian Blincko",
-        "email": "gblincko0@house.gov",
-        "zona": {
-            "localidad": {
-                "nombre": "Florida",
-                "codigoPostal": "32885"
+[
+    {
+        "motivo": "Desperfecto",
+        "descripcion": "Mala señal, los canales se ven con rayas.",
+        "fecha": "2019-01-22T10:00:00.000+00:00",
+        "cliente": {
+            "numeroCliente": 1,
+            "nombreCompleto": "Jocelyn Wabey",
+            "email": "jwabey0@chicagotribune.com",
+            "zona": {
+                "localidad": {
+                    "nombre": "Texas",
+                    "codigoPostal": "75236"
+                },
+                "ubicacion": {
+                    "type": "Point",
+                    "latitud": 32.69,
+                    "longitud": -96.9177
+                }
             },
-            "ubicacion": {
-                "type": "Point",
-                "coordinates": [
-                    28.5456,
-                    -81.3782
+            "plan": {
+                "tipo": "Normal",
+                "cantidadCanales": 100,
+                "canales": [
+                    "Tierra Mia",
+                    "América TV",
+                    "Televisión Pública",
+                    "El Nueve",
+                    "Telefe",
+                    "El Trece",
+                    "Net TV",
+                    "Encuentro",
+                    "Canal de la Ciudad",
+                    "Canal siete Mendoza",
+                    "televida Mendoza",
+                    "Telediario Río Cuarto",
+                    "Canal Siete Jujuy",
+                    "Canal 3 Rosario",
+                    "Telefé Rosario",
+                    "Infomercials",
+                    "STAR Channel",
+                    "Warner Channel",
+                    "A&E",
+                    "Canal Sony",
+                    "AXN",
+                    "AMC",
+                    "Star Life",
+                    "TNT Series",
+                    "Atreseries",
+                    "Comedy Central",
+                    "TBS",
+                    "FX",
+                    "Universal TV",
+                    "SYFY",
+                    "TruTV",
+                    "¡Hola! TV",
+                    "E!",
+                    "Investigation Discovery",
+                    "Glitz",
+                    "Pasiones",
+                    "Las Estrellas",
+                    "Tlnovelas",
+                    "Lifetime",
+                    "Discovery Home & Health",
+                    "Más Chic",
+                    "Telemundo",
+                    "El Gourmet",
+                    "Food Network",
+                    "IV"
                 ]
             }
         },
-        "plan": {
-            "tipo": "SuperPack1",
-            "cantidadCanales": 45,
-            "canales": [
-                "Más Chic ",
-                "Encuentro ",
-                "televida Mendoza "
-            ]
-        }
-    },
-    "derivacion": [
-        {
-            "fecha": "21/07/2019",
-            "area": "Servicio técnico",
-            "empleado": {
-                "numeroEmpleado": 1,
-                "nombreCompleto": "Peyton Liddel",
-                "email": "pliddel0@reuters.com",
-                "area": "Internet-Apps",
-                "oficina": {
-                    "nombre": "Kessler",
-                    "zona": {
-                        "localidad": {
-                            "nombre": "Michigan",
-                            "codigoPostal": "48275"
-                        },
-                        "ubicacion": {
-                            "type": "Point",
-                            "coordinates": [
-                                42.2399,
-                                -83.1508
-                            ]
+        "derivacion": [
+            {
+                "fecha": "2019-01-22T10:00:00.000+00:00",
+                "area": "Atención al cliente",
+                "empleado": {
+                    "numeroEmpleado": 1,
+                    "nombreCompleto": "Blayne McGrouther",
+                    "email": "bmcgrouther0@chron.com",
+                    "area": "Atención al cliente",
+                    "oficina": {
+                        "nombre": "Crist Inc",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Florida",
+                                "codigoPostal": "32835"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 28.5289,
+                                "longitud": -81.4787
+                            }
+                        }
+                    },
+                    "centroTecnico": {
+                        "nombre": "Cormier-Waelchi",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Alabama",
+                                "codigoPostal": "36641"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 30.6589,
+                                "longitud": -88.178
+                            }
                         }
                     }
                 },
-                "centroTecnico": {
-                    "nombre": " Turner and Lind",
-                    "zona": {
-                        "localidad": {
-                            "nombre": "Alabama",
-                            "codigoPostal": "35263"
-                        },
-                        "ubicacion": {
-                            "type": "Point",
-                            "coordinates": [
-                                33.5225,
-                                -86.8094
-                            ]
-                        }
-                    }
-                }
+                "operacion": []
             },
-            "operacion": [
-                {
-                    "fecha": "29/05/2017",
-                    "descripcion": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
-                    "funciono": false
-                },
-                {
-                    "fecha": "14/07/2017",
-                    "descripcion": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
-                    "funciono": true
-                },
-                {
-                    "fecha": "15/12/2018",
-                    "descripcion": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
-                    "funciono": true
-                },
-                {
-                    "fecha": "30/07/2020",
-                    "descripcion": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
-                    "funciono": false
-                }
-            ]
-        },
-        {
-            "fecha": "05/05/2019",
-            "area": "Atención al cliente",
-            "empleado": {
-                "numeroEmpleado": 2,
-                "nombreCompleto": "Catlee Annon",
-                "email": "cannon1@noaa.gov",
-                "area": "Internet-Apps",
-                "oficina": {
-                    "nombre": "Bogan Inc",
-                    "zona": {
-                        "localidad": {
-                            "nombre": "Florida",
-                            "codigoPostal": "33758"
-                        },
-                        "ubicacion": {
-                            "type": "Point",
-                            "coordinates": [
-                                27.8918,
-                                -82.7248
-                            ]
-                        }
-                    }
-                },
-                "centroTecnico": {
-                    "nombre": "Becker",
-                    "zona": {
-                        "localidad": {
-                            "nombre": "Florida",
-                            "codigoPostal": "34981"
-                        },
-                        "ubicacion": {
-                            "type": "Point",
-                            "coordinates": [
-                                27.4049,
-                                -80.3623
-                            ]
-                        }
-                    }
-                }
-            },
-            "operacion": [
-                {
-                    "fecha": "16/03/2019",
-                    "descripcion": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
-                    "funciono": false
-                },
-                {
-                    "fecha": "14/09/2020",
-                    "descripcion": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
-                    "funciono": true
-                },
-                {
-                    "fecha": "25/07/2020",
-                    "descripcion": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
-                    "funciono": true
-                }
-            ]
-        },
-        {
-            "fecha": "24/06/2019",
-            "area": "Retenciones",
-            "empleado": {
-                "numeroEmpleado": 3,
-                "nombreCompleto": "Delora Jendricke",
-                "email": "djendricke2@cyberchimps.com",
-                "area": "Servicios comerciales",
-                "oficina": {
-                    "nombre": "Douglas-Haag",
-                    "zona": {
-                        "localidad": {
-                            "nombre": "Florida",
-                            "codigoPostal": "32830"
-                        },
-                        "ubicacion": {
-                            "type": "Point",
-                            "coordinates": [
-                                28.3822,
-                                -81.569
-                            ]
-                        }
-                    }
-                },
-                "centroTecnico": {
-                    "nombre": "Gutkowski",
-                    "zona": {
-                        "localidad": {
-                            "nombre": "Colorado",
-                            "codigoPostal": "80235"
-                        },
-                        "ubicacion": {
-                            "type": "Point",
-                            "coordinates": [
-                                39.6472,
-                                -105.0795
-                            ]
-                        }
-                    }
-                }
-            },
-            "operacion": []
-        },
-        {
-            "fecha": "16/08/2019",
-            "area": "Servicios comerciales",
-            "empleado": {
-                "numeroEmpleado": 4,
-                "nombreCompleto": "Shauna Mussilli",
-                "email": "smussilli3@ebay.com",
+            {
+                "fecha": "2019-01-22T10:20:00.000+00:00",
                 "area": "Servicio técnico",
-                "oficina": {
-                    "nombre": "Hauck Group",
-                    "zona": {
-                        "localidad": {
-                            "nombre": "Colorado",
-                            "codigoPostal": "80150"
-                        },
-                        "ubicacion": {
-                            "type": "Point",
-                            "coordinates": [
-                                39.7388,
-                                -104.4083
-                            ]
+                "empleado": {
+                    "numeroEmpleado": 2,
+                    "nombreCompleto": "Georgie Jago",
+                    "email": "gjago1@histats.com",
+                    "area": "Servicio técnico",
+                    "oficina": {
+                        "nombre": "Nitzsche-Hahn",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Florida",
+                                "codigoPostal": "33305"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 26.1497,
+                                "longitud": -80.1229
+                            }
+                        }
+                    },
+                    "centroTecnico": {
+                        "nombre": "Predovic Inc",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Florida",
+                                "codigoPostal": "32605"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 29.6785,
+                                "longitud": -82.3679
+                            }
                         }
                     }
                 },
-                "centroTecnico": {
-                    "nombre": "Halvorson Group",
-                    "zona": {
-                        "localidad": {
-                            "nombre": "Florida",
-                            "codigoPostal": "33661"
-                        },
-                        "ubicacion": {
-                            "type": "Point",
-                            "coordinates": [
-                                27.872,
-                                -82.4388
-                            ]
-                        }
+                "operacion": [
+                    {
+                        "fecha": "2019-01-22T10:20:00.000+00:00",
+                        "descripcion": "Envío de frecuencia de referencia.",
+                        "funciono": false
+                    },
+                    {
+                        "fecha": "2019-01-22T10:30:00.000+00:00",
+                        "descripcion": "Corrección de señal.",
+                        "funciono": false
+                    },
+                    {
+                        "fecha": "2019-01-22T10:45:00.000+00:00",
+                        "descripcion": "Reseteo de nodo.",
+                        "funciono": true
                     }
+                ]
+            }
+        ]
+    },
+    {
+        "motivo": "Desperfecto",
+        "descripcion": "Señal intermitente.",
+        "fecha": "2019-03-15T08:15:00.000+00:00",
+        "cliente": {
+            "numeroCliente": 6,
+            "nombreCompleto": "Dawna Malpass",
+            "email": "dmalpass5@dedecms.com",
+            "zona": {
+                "localidad": {
+                    "nombre": "Colorado",
+                    "codigoPostal": "80217"
+                },
+                "ubicacion": {
+                    "type": "Point",
+                    "latitud": 39.7388,
+                    "longitud": -104.4083
                 }
             },
-            "operacion": [
-                {
-                    "fecha": "06/01/2021",
-                    "descripcion": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
-                    "funciono": false
-                },
-                {
-                    "fecha": "27/02/2021",
-                    "descripcion": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
-                    "funciono": true
-                }
-            ]
+            "plan": {
+                "tipo": "Normal",
+                "cantidadCanales": 166,
+                "canales": [
+                    "Tierra Mia",
+                    "América TV",
+                    "Televisión Pública",
+                    "El Nueve",
+                    "Telefe",
+                    "El Trece",
+                    "Net TV",
+                    "Encuentro",
+                    "Canal de la Ciudad",
+                    "Canal siete Mendoza",
+                    "televida Mendoza",
+                    "Telediario Río Cuarto",
+                    "Canal Siete Jujuy",
+                    "Canal 3 Rosario",
+                    "Telefé Rosario",
+                    "Infomercials",
+                    "STAR Channel",
+                    "Warner Channel",
+                    "A&E",
+                    "Canal Sony",
+                    "AXN",
+                    "AMC",
+                    "Star Life",
+                    "TNT Series",
+                    "Atreseries",
+                    "Comedy Central",
+                    "TBS",
+                    "FX",
+                    "Universal TV",
+                    "SYFY",
+                    "TruTV",
+                    "¡Hola! TV",
+                    "E!",
+                    "Investigation Discovery",
+                    "Glitz",
+                    "Pasiones",
+                    "Las Estrellas",
+                    "Tlnovelas",
+                    "Lifetime",
+                    "Discovery Home & Health",
+                    "Más Chic",
+                    "Telemundo",
+                    "El Gourmet",
+                    "Food Network",
+                    "IV"
+                ]
+            }
         },
-        {
-            "fecha": "30/03/2020",
-            "area": "Servicios comerciales",
-            "empleado": {
-                "numeroEmpleado": 5,
-                "nombreCompleto": "Fedora Brendish",
-                "email": "fbrendish4@theatlantic.com",
-                "area": "Retenciones",
-                "oficina": {
-                    "nombre": "Murray-Schaefer",
-                    "zona": {
-                        "localidad": {
-                            "nombre": "Michigan",
-                            "codigoPostal": "48092"
-                        },
-                        "ubicacion": {
-                            "type": "Point",
-                            "coordinates": [
-                                42.5125,
-                                -83.0643
-                            ]
+        "derivacion": [
+            {
+                "fecha": "2019-03-15T08:15:00.000+00:00",
+                "area": "Internet-Apps",
+                "empleado": {
+                    "numeroEmpleado": 1,
+                    "nombreCompleto": "Nancey Eunson",
+                    "email": "neunson0@nps.gov",
+                    "area": "Internet-Apps",
+                    "oficina": {
+                        "nombre": "Kovacek",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Ohio",
+                                "codigoPostal": "44315"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 41.028,
+                                "longitud": -81.4632
+                            }
+                        }
+                    },
+                    "centroTecnico": {
+                        "nombre": " Ritchie and Reinger",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Minnesota",
+                                "codigoPostal": "55402"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 44.9762,
+                                "longitud": -93.2759
+                            }
                         }
                     }
                 },
-                "centroTecnico": {
-                    "nombre": "Gleichner",
-                    "zona": {
-                        "localidad": {
-                            "nombre": "Wisconsin",
-                            "codigoPostal": "53405"
-                        },
-                        "ubicacion": {
-                            "type": "Point",
-                            "coordinates": [
-                                42.7161,
-                                -87.8233
-                            ]
+                "operacion": [
+                    {
+                        "fecha": "2019-03-15T08:15:00.000+00:00",
+                        "descripcion": "Adhesion a factura electrónica.",
+                        "funciono": false
+                    }
+                ]
+            },
+            {
+                "fecha": "2019-03-15T08:30:00.000+00:00",
+                "area": "Servicio técnico",
+                "empleado": {
+                    "numeroEmpleado": 2,
+                    "nombreCompleto": "Clemmy Oliver-Paull",
+                    "email": "coliverpaull1@canalblog.com",
+                    "area": "Servicio técnico",
+                    "oficina": {
+                        "nombre": "Schuppe Inc",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Wisconsin",
+                                "codigoPostal": "53710"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 43.0696,
+                                "longitud": -89.4239
+                            }
+                        }
+                    },
+                    "centroTecnico": {
+                        "nombre": "Mayert LLC",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Colorado",
+                                "codigoPostal": "80945"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 38.8247,
+                                "longitud": -104.562
+                            }
                         }
                     }
+                },
+                "operacion": [
+                    {
+                        "fecha": "2019-03-15T08:30:00.000+00:00",
+                        "descripcion": "Envío de frecuencia de referencia.",
+                        "funciono": false
+                    },
+                    {
+                        "fecha": "2019-03-15T08:45:00.000+00:00",
+                        "descripcion": "Corrección de señal.",
+                        "funciono": false
+                    },
+                    {
+                        "fecha": "2019-03-15T08:50:00.000+00:00",
+                        "descripcion": "Reseteo de nodo.",
+                        "funciono": false
+                    },
+                    {
+                        "fecha": "2019-03-15T08:50:00.000+00:00",
+                        "descripcion": "Se agenda visita técnica.",
+                        "funciono": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "motivo": "Desperfecto",
+        "descripcion": "Faltan canales",
+        "fecha": "2019-03-18T12:00:00.000+00:00",
+        "cliente": {
+            "numeroCliente": 5,
+            "nombreCompleto": "Niccolo Le Brum",
+            "email": "nle4@example.com",
+            "zona": {
+                "localidad": {
+                    "nombre": "California",
+                    "codigoPostal": "93399"
+                },
+                "ubicacion": {
+                    "type": "Point",
+                    "latitud": 35.4369,
+                    "longitud": -119.0679
                 }
             },
-            "operacion": [
-                {
-                    "fecha": "18/04/2019",
-                    "descripcion": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
-                    "funciono": false
+            "plan": {
+                "tipo": "SuperPackFull",
+                "cantidadCanales": 45,
+                "canales": [
+                    "Tierra Mia",
+                    "América TV",
+                    "Televisión Pública",
+                    "El Nueve",
+                    "Telefe",
+                    "El Trece",
+                    "Net TV",
+                    "Encuentro",
+                    "Canal de la Ciudad",
+                    "Canal siete Mendoza",
+                    "televida Mendoza",
+                    "Telediario Río Cuarto",
+                    "Canal Siete Jujuy",
+                    "Canal 3 Rosario",
+                    "Telefé Rosario",
+                    "Infomercials",
+                    "STAR Channel",
+                    "Warner Channel",
+                    "A&E",
+                    "Canal Sony",
+                    "AXN",
+                    "AMC",
+                    "Star Life",
+                    "TNT Series",
+                    "Atreseries",
+                    "Comedy Central",
+                    "TBS",
+                    "FX",
+                    "Universal TV",
+                    "SYFY",
+                    "TruTV",
+                    "¡Hola! TV",
+                    "E!",
+                    "Investigation Discovery",
+                    "Glitz",
+                    "Pasiones",
+                    "Las Estrellas",
+                    "Tlnovelas",
+                    "Lifetime",
+                    "Discovery Home & Health",
+                    "Más Chic",
+                    "Telemundo",
+                    "El Gourmet",
+                    "Food Network",
+                    "IVC",
+                    "Ciudad Magazine",
+                    "Volver",
+                    "MTV Música",
+                    "Quiero Música en mi Idioma",
+                    "HTV Música",
+                    "Paka Paka",
+                    "Cartoon Network",
+                    "Nickelodeon",
+                    "Nick Jr.",
+                    "Disney Channel",
+                    "Disney Junior",
+                    "Disney XD",
+                    "Nat Geo Kids",
+                    "ZooMoo",
+                    "Discovery Kids",
+                    "Boomerang",
+                    "EWTN",
+                    "Orbe 21",
+                    "Enlace",
+                    "Canal LUZ",
+                    "Playboy TV",
+                    "Venus",
+                    "XTSY",
+                    "Hustler TV",
+                    "TNT",
+                    "Golden",
+                    "TCM",
+                    "FXM",
+                    "Cinecanal",
+                    "Studio Universal",
+                    "Cinemax",
+                    "Paramount Network",
+                    "Cine AR",
+                    "DHE",
+                    "Cine Latino",
+                    "De Película",
+                    "Golden Edge",
+                    "Space",
+                    "I-Sat",
+                    "Portal HBO Pack",
+                    "HBO",
+                    "HBO 2",
+                    "HBO Plus",
+                    "HBO Signature",
+                    "HBO Family",
+                    "HBO Mundi",
+                    "HBO Pop",
+                    "HBO Xtreme",
+                    "Portal HBO Max",
+                    "Star series Este",
+                    "Star series Oeste",
+                    "Star fun",
+                    "Star comedy",
+                    "Star hits",
+                    "Star classics",
+                    "Star action",
+                    "Star cinema",
+                    "TNT Sports",
+                    "Fox Sports",
+                    "Fox Sports 2",
+                    "Fox Sports 3",
+                    "ESPN",
+                    "ESPN 2",
+                    "ESPN 3",
+                    "Golf Channel",
+                    "TyC Sports",
+                    "ESPN Extra",
+                    "NBA TV",
+                    "NBA League Pass",
+                    "CNN en Español",
+                    "CNN International",
+                    "CNN Chile",
+                    "Canal 24 Horas (TVN Chile)",
+                    "Bloomberg Television",
+                    "La Nación +",
+                    "Todo Noticias",
+                    "C5N",
+                    "Crónica TV",
+                    "A24",
+                    "Canal 26",
+                    "NTN 24",
+                    "Telemax",
+                    "Cablenoticias",
+                    "Canal Rural",
+                    "Construir TV",
+                    "National Geographic",
+                    "Discovery",
+                    "Animal Planet",
+                    "National Geographic Wild",
+                    "Discovery Turbo",
+                    "TLC",
+                    "Sun Channel",
+                    "History",
+                    "History 2",
+                    "Film & Arts",
+                    "Univisión Latinoamérica",
+                    "Antena 3",
+                    "Rai Italia",
+                    "BBC World News",
+                    "Deutche Welle",
+                    "Caracol",
+                    "El Tiempo Televisión",
+                    "TV Chile (TVN)",
+                    "RCN Nuestra Tele",
+                    "TV Globo",
+                    "RTP",
+                    "Zee TV",
+                    "NHK World",
+                    "VTV (Uruguay)",
+                    "VTV Plus (Uruguay)",
+                    "TV Perú",
+                    "Escuela+",
+                    "Portal Music Mix Stingray",
+                    "ASPEN 102.3",
+                    "Radio  AM 870",
+                    "Del Plata",
+                    "Radio Disney Argentina",
+                    "Unión Radio",
+                    "Latina Radio FM",
+                    "Caracol Radio",
+                    "Radio France International"
+                ]
+            }
+        },
+        "derivacion": [
+            {
+                "fecha": "2019-03-18T12:00:00.000+00:00",
+                "area": "Servicio técnico",
+                "empleado": {
+                    "numeroEmpleado": 1,
+                    "nombreCompleto": "Desi Renton",
+                    "email": "drenton0@google.nl",
+                    "area": "Servicios técnico",
+                    "oficina": {
+                        "nombre": "Boyer-Ziemann",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Iowa",
+                                "codigoPostal": "50347"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 41.6727,
+                                "longitud": -93.5722
+                            }
+                        }
+                    },
+                    "centroTecnico": {
+                        "nombre": "Windler LLC",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Florida",
+                                "codigoPostal": "32215"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 30.2407,
+                                "longitud": -81.893
+                            }
+                        }
+                    }
                 },
-                {
-                    "fecha": "20/11/2017",
-                    "descripcion": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
-                    "funciono": false
+                "operacion": [
+                    {
+                        "fecha": "2019-03-18T12:00:00.000+00:00",
+                        "descripcion": "Envío de frecuencia de referencia.",
+                        "funciono": false
+                    },
+                    {
+                        "fecha": "2019-03-18T12:10:00.000+00:00",
+                        "descripcion": "Corrección de señal.",
+                        "funciono": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "motivo": "Desperfecto",
+        "descripcion": "Faltan canales.",
+        "fecha": "2019-03-24T14:00:00.000+00:00",
+        "cliente": {
+            "numeroCliente": 7,
+            "nombreCompleto": "Shannon Mundall",
+            "email": "smundall6@domainmarket.com",
+            "zona": {
+                "localidad": {
+                    "nombre": "Texas",
+                    "codigoPostal": "77070"
                 },
-                {
-                    "fecha": "26/04/2018",
-                    "descripcion": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
-                    "funciono": false
-                },
-                {
-                    "fecha": "24/04/2021",
-                    "descripcion": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
-                    "funciono": true
+                "ubicacion": {
+                    "type": "Point",
+                    "latitud": 29.9781,
+                    "longitud": -95.5803
                 }
-            ]
-        }
-    ],
-    "_row_": 1
-}
+            },
+            "plan": {
+                "tipo": "Normal",
+                "cantidadCanales": 166,
+                "canales": [
+                    "Tierra Mia",
+                    "América TV",
+                    "Televisión Pública",
+                    "El Nueve",
+                    "Telefe",
+                    "El Trece",
+                    "Net TV",
+                    "Encuentro",
+                    "Canal de la Ciudad",
+                    "Canal siete Mendoza",
+                    "televida Mendoza",
+                    "Telediario Río Cuarto",
+                    "Canal Siete Jujuy",
+                    "Canal 3 Rosario",
+                    "Telefé Rosario",
+                    "Infomercials",
+                    "STAR Channel",
+                    "Warner Channel",
+                    "A&E",
+                    "Canal Sony",
+                    "AXN",
+                    "AMC",
+                    "Star Life",
+                    "TNT Series",
+                    "Atreseries",
+                    "Comedy Central",
+                    "TBS",
+                    "FX",
+                    "Universal TV",
+                    "SYFY",
+                    "TruTV",
+                    "¡Hola! TV",
+                    "E!",
+                    "Investigation Discovery",
+                    "Glitz",
+                    "Pasiones",
+                    "Las Estrellas",
+                    "Tlnovelas",
+                    "Lifetime",
+                    "Discovery Home & Health",
+                    "Más Chic",
+                    "Telemundo",
+                    "El Gourmet",
+                    "Food Network",
+                    "IV"
+                ]
+            }
+        },
+        "derivacion": [
+            {
+                "fecha": "2019-03-24T14:10:00.000+00:00",
+                "area": "Servicios financieros",
+                "empleado": {
+                    "numeroEmpleado": 1,
+                    "nombreCompleto": "Adrea Figliovanni",
+                    "email": "afigliovanni0@themeforest.net",
+                    "area": "Servicios financieros",
+                    "oficina": {
+                        "nombre": "Bogan Inc",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Michigan",
+                                "codigoPostal": "48126"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 42.3349,
+                                "longitud": -83.1801
+                            }
+                        }
+                    },
+                    "centroTecnico": {
+                        "nombre": "Funk",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Pennsylvania",
+                                "codigoPostal": "15235"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 40.4598,
+                                "longitud": -79.8224
+                            }
+                        }
+                    }
+                },
+                "operacion": []
+            },
+            {
+                "fecha": "2019-03-24T14:12:00.000+00:00",
+                "area": "Servicio técnico",
+                "empleado": {
+                    "numeroEmpleado": 2,
+                    "nombreCompleto": "Giustino Jorat",
+                    "email": "gjorat1@thetimes.co.uk",
+                    "area": "Servicio técnico",
+                    "oficina": {
+                        "nombre": "Tromp Inc",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Florida",
+                                "codigoPostal": "33913"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 26.5228,
+                                "longitud": -81.7065
+                            }
+                        }
+                    },
+                    "centroTecnico": {
+                        "nombre": "Graham",
+                        "zona": {
+                            "localidad": {
+                                "nombre": "Florida",
+                                "codigoPostal": "32891"
+                            },
+                            "ubicacion": {
+                                "type": "Point",
+                                "latitud": 28.5663,
+                                "longitud": -81.2608
+                            }
+                        }
+                    }
+                },
+                "operacion": [
+                    {
+                        "fecha": "2019-03-24T14:12:00.000+00:00",
+                        "descripcion": "Envío de frecuencia de referencia.",
+                        "funciono": false
+                    },
+                    {
+                        "fecha": "2019-03-24T14:23:00.000+00:00",
+                        "descripcion": "Corrección de señal.",
+                        "funciono": false
+                    },
+                    {
+                        "fecha": "2019-03-24T14:28:00.000+00:00",
+                        "descripcion": "Reseteo de nodo.",
+                        "funciono": false
+                    },
+                    {
+                        "fecha": "2019-03-24T14:37:00.000+00:00",
+                        "descripcion": "Se agenda visita técnica.",
+                        "funciono": false
+                    }
+                ]
+            }
+        ]
+    }
+]
